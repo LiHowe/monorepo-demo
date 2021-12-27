@@ -1,0 +1,17 @@
+{
+  "name": "example_yarn",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "lerna run test",
+    "diff": "lerna diff",
+    "new-ver": "lerna version --conventional-commits --yes"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

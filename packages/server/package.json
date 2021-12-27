@@ -1,0 +1,9 @@
+{
+  "name": "@hdemo/server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hdemo/common": "0.0.1"
+  }
+}
